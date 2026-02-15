@@ -174,5 +174,3 @@ function dotw_inputted(event) {
   generate_date()
   day_input.value = ""
 }
-
-// todo - check the inputed dotw with the correct one and then generate new date after saying correct/incrorrect (with correct dotw if wrong)
