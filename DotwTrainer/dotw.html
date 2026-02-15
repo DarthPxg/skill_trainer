@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Day of the week Trainer</title>
+    <link rel="stylesheet" href="dotw.css">
+  </head>
+
+  <body>
+    <h1>Day of the week Trainer</h1>
+
+    <div class="main_container">
+      <div class="sub_container">
+         <h2>Date</h2>
+        <p id="date_text">N/A</p>
+      </div>
+      <div class="divider"></div>
+      <div class="sub_container">
+        <h2>Day of the week</h2>
+        <input type="text" id="day_input">
+      </div>
+      <div class="divider"></div>
+      <div class="sub_container">
+        <h2>Stats</h2>
+        <p id="streak_text">Streak: 0</p>
+        <p id="all_time_text">All-time: 0</p>
+      </div>
+    </div>
+
+    <p class="correct_incorrect_text" id="correct_incorrect_text">-</p>
+
+    <hr>
+
+    <div class="date_bounds_container">
+      <div class="sub_container">
+        <h2>Min</h2>
+        <input type="date" id="min_date" min="0000-00-00">
+      </div>
+      <div class="sub_container">
+        <h2>Max</h2>
+        <input type="date" id="max_date">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="button_div">
+      <button id="start_button">Start</button>
+    </div>
+
+    <a href="../index.html">Back</a>
+  </body>
+
+  <script src="script.js"></script>
+</html>
